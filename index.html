@@ -1,344 +1,261 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Aspivra · Ads for e-moto brands</title>
-  <meta name="description" content="AI-built worlds around your real product. Monthly short-form video and static ads for e-moto brands and parts shops. Early access in weekly batches from October 29.">
+  <script>document.documentElement.classList.remove("no-js")</script>
+  <title>Aspivra | Monthly ads for e-moto brands and parts shops</title>
+  <meta name="description" content="Short videos and static ads for TikTok, Reels and Meta, made from your real product photos. For e-moto brands and parts shops. From $99 a month.">
   <link rel="canonical" href="https://getaspivra.com/">
-  <meta name="theme-color" content="#0b0b0a">
-  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#fbfaf8">
+  <meta name="color-scheme" content="light">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Aspivra">
   <meta property="og:url" content="https://getaspivra.com/">
-  <meta property="og:title" content="The bike stays still. The world doesn't.">
-  <meta property="og:description" content="AI-built worlds around your real product. Monthly short-form video and static ads for e-moto brands and parts shops.">
+  <meta property="og:title" content="Aspivra | Monthly ads for e-moto brands and parts shops">
+  <meta property="og:description" content="Short videos and static ads for TikTok, Reels and Meta, made from your real product photos. For e-moto brands and parts shops. From $99 a month.">
   <meta property="og:image" content="https://getaspivra.com/assets/og/aspivra-og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:type" content="image/jpeg">
-  <meta property="og:image:alt" content="Aspivra: The bike stays still. The world doesn't. Next to the Aspivra mark in chrome.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="favicon.ico" sizes="32x32">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" href="./favicon.ico" sizes="32x32">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="manifest" href="./site.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@112..125,700..800&display=block" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=1793060712">
-  <script>
-    (function () {
-      var d = document.documentElement, go = function () { d.classList.add("ready"); };
-      d.classList.add("js");
-      // Start the hero once the display face is in (or after 0.9s), so the headline never animates in a fallback font.
-      if (document.fonts && document.fonts.load) Promise.race([document.fonts.load("800 1em Archivo"), new Promise(function (r) { setTimeout(r, 900); })]).then(go, go);
-      else go();
-      // If main.js never runs, drop the hidden reveal states so nothing stays invisible.
-      setTimeout(function () { if (!window.__aspReady) d.classList.remove("js"); }, 3000);
-    })();
-  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/site.css?v=bd12d7ff">
+  
 </head>
-<body>
+<body class="page-home">
   <a class="skip" href="#main">Skip to content</a>
-
-  <div class="bar" role="note">
-    <span class="bar__dot" aria-hidden="true"></span>
-    <span data-bar>Early access opens <strong>Oct 29</strong><span class="bar__long"> · weekly batches, limited spots</span></span>
-  </div>
-
-  <header class="nav" data-nav>
-    <a class="nav__brand" href="#top" aria-label="Aspivra home">
-      <svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 4 20 20h-3.7L12 11.2 7.7 20H4z"/><path fill="currentColor" d="M10 17h4l1.2 2.3H8.8z"/></svg>
-      <span class="nav__word">Aspivra</span>
-    </a>
-    <nav class="nav__links" aria-label="Main">
-      <a href="#story">Story</a>
-      <a href="#data">Data</a>
-      <a href="#formats">Formats</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#faq">FAQ</a>
-    </nav>
-    <a class="nav__mlink mono" href="#pricing">Pricing</a>
-    <a class="btn btn--small" href="#apply">Apply</a>
+  <div class="notice"><p class="wrap" data-notice>Taking our first brands now. First batches start Oct 29.</p></div>
+  <header class="site-header" data-header>
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="Aspivra home">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 4 20 20h-3.7L12 11.2 7.7 20H4z"/><path fill="currentColor" d="M10 17h4l1.2 2.3H8.8z"/></svg>
+        <span>Aspivra</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="./how-it-works/">How it works</a>
+        <a href="./pricing/">Pricing</a>
+        <a href="./faq/">FAQ</a>
+        <a href="./about/">About</a>
+      </nav>
+      <a class="btn btn--secondary header-apply" href="./apply/">Apply</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        Menu
+      </button>
+    </div>
   </header>
 
+  <dialog class="drawer" id="menu" aria-label="Menu" data-menu>
+   <div class="drawer-inner">
+    <div class="drawer-top">
+      <a class="brand" href="./" aria-label="Aspivra home">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 4 20 20h-3.7L12 11.2 7.7 20H4z"/><path fill="currentColor" d="M10 17h4l1.2 2.3H8.8z"/></svg>
+        <span>Aspivra</span>
+      </a>
+      <button class="menu-btn" type="button" data-menu-close aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <nav aria-label="Menu">
+      <a href="./" aria-current="page">Home</a>
+      <a href="./how-it-works/">How it works</a>
+      <a href="./pricing/">Pricing</a>
+      <a href="./faq/">FAQ</a>
+      <a href="./about/">About</a>
+    </nav>
+    <div class="drawer-foot">
+      <a class="btn btn--block" href="./apply/">Apply</a>
+      <p class="small muted">Nothing to pay today. Questions? <a href="mailto:aspivrallc@gmail.com">Email us</a></p>
+    </div>
+   </div>
+  </dialog>
+
   <main id="main" tabindex="-1">
-    <!-- HERO: the bike stays still, the world moves -->
-    <section class="hero" id="top">
-      <canvas class="terrain" data-terrain aria-hidden="true"></canvas>
-      <div class="hero__inner">
-        <p class="eyebrow">Monthly ads for e-moto brands and parts shops</p>
-        <h1 class="hero__title">
-          <span class="line"><span>The bike</span></span>
-          <span class="line"><span>stays still.</span></span>
-          <span class="line line--outline"><span>The world</span></span>
-          <span class="line line--outline"><span>doesn't.</span></span>
-        </h1>
-        <div class="hero__foot">
-          <p class="hero__sub" data-reveal>Video and static ads for TikTok and Reels, from $99 a month. Your real product, cut from your own photos. AI only builds the world around it.</p>
-          <div class="hero__ctas" data-reveal>
-            <a class="btn" href="#apply"><span>Apply for early access</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4 12.5 8l-4 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
-            <a class="link" href="#story">See it move</a>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1><span>Stop posting phone photos.</span> <span>Start posting ads.</span></h1>
+          <p class="lead">Send us photos of your parts. Every month we turn them into short videos and static ads for TikTok, Reels and Meta. From $99 a month.</p>
+          <div>
+            <div class="cta-row">
+              <a class="btn" href="./apply/">Apply now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              <a class="text-link" href="./pricing/">See pricing</a>
+            </div>
+            <p class="cta-note">Free to apply. You only pay if we accept you.</p>
+          </div>
+          <p class="hero-fits">For shops that sell for Sur-Ron, Talaria, E Ride Pro, 79Bike and more.</p>
+        </div>
+        <div class="swap" role="group" aria-label="A photo of a part and the ad made from it">
+          <figure class="swap-in">
+            <img src="./assets/img/sample-in-3.webp" width="800" height="1000" alt="Photo of a TG Racing shift lock lying on a marble counter" fetchpriority="high">
+            <figcaption><b>What you send</b>A quick photo of your part. This one is TG Racing's, on a counter.</figcaption>
+          </figure>
+          <figure class="swap-out">
+            <img src="./assets/img/sample-ad-4.webp" width="900" height="1600" alt="Finished 9:16 ad: the same shift lock cut out over a blurred shot of a Sur-Ron, with the headline The original American-made Shiftlock">
+            <figcaption><b>What you get</b>The same part, cut out and set in a new scene. Sample for TG Racing, our co-founder's shop.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band--paper2">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>What you get every month</h2>
+          <p>A batch of ready-to-post ads: short videos for TikTok and Reels, statics for Meta feed and stories, and a few hooks on each idea so you can test what works.</p>
+        </div>
+        <div class="samples">
+          <figure>
+            <video src="./assets/img/sample-vid-1.mp4" poster="./assets/img/sample-vid-1.webp" width="720" height="1280" muted playsinline loop autoplay preload="metadata" aria-label="8-second video ad for the TG Racing shift lock: the part slides in, three claims appear, then it cuts to the part on the bike"></video>
+            <figcaption><b>Video, 9:16, 8 seconds</b><br>Part cut from a counter photo, then shown on the bike</figcaption>
+          </figure>
+          <figure>
+            <img src="./assets/img/sample-ad-2.webp" width="900" height="1600" loading="lazy" alt="Static ad: Made for your bike, close-up of the shift lock on the frame">
+            <figcaption><b>Static, 9:16</b><br>The shop's own bike photo with a fitment hook</figcaption>
+          </figure>
+          <figure>
+            <img src="./assets/img/sample-ad-3.webp" width="900" height="1600" loading="lazy" alt="Static ad: The original American-made Shiftlock, black shift lock cut out on a dark studio background">
+            <figcaption><b>Static, 9:16</b><br>Part cut out, studio background</figcaption>
+          </figure>
+        </div>
+        <p class="samples-caption">All samples are made for TG Racing, our co-founder's parts shop, from its own product photos. <a class="text-link" href="./how-it-works/">See how it works</a></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap split">
+        <div class="section-head">
+          <h2>Your part. Not a drawing of it.</h2>
+          <p>AI tools redraw your product: wrong shape, melted logo, chain on the wrong side. Riders spot it in a second. We don't let that happen.</p>
+        </div>
+        <dl class="rule-list">
+          <div><dt>Cut from your photos</dt><dd>We take your product from your own photos or videos. AI never draws it.</dd></div>
+          <div><dt>A new scene around it</dt><dd>We build the background and the motion around your part, from clean studio looks to AI scenes like a frozen lake or a dirt track at golden hour.</dd></div>
+          <div><dt>Checked by a person</dt><dd>Every file is checked against your real product before it ships. If it's off, we redo it.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section band--paper2">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>How it works</h2>
+        </div>
+        <ol class="steps steps--row">
+          <li><div><h3>Apply</h3><p>Two minutes. Free.</p></div></li>
+          <li><div><h3>Get set up</h3><p>If it's a fit, we email a payment link for your plan.</p></div></li>
+          <li><div><h3>Send photos</h3><p>3 to 5 of each product, plus a few on the bike. Phone photos work.</p></div></li>
+          <li><div><h3>Get your ads</h3><p>First batch 5 to 7 business days after your payment and photos. Then a new batch every month.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Plans</h2>
+          <p>Pick how many ads you want each month. Applying is free.</p>
+        </div>
+        <div class="plans plans-compact">
+          <article class="plan">
+            <div class="plan-head"><h3>Starter</h3><p>Decal shops, small parts shops, or your first ads.</p></div>
+            <p class="price">$99<small>/month</small></p>
+            <dl><div><dt>Creatives a month</dt><dd>15</dd></div><div><dt>Of those, videos</dt><dd>up to 5</dd></div></dl>
+            <a class="btn btn--secondary btn--block" href="./apply/?plan=starter">Apply for Starter</a>
+          </article>
+          <article class="plan plan--rec">
+            <span class="plan-tag">Our pick</span>
+            <div class="plan-head"><h3>Growth</h3><p>Shops already running ads that need new ones all month.</p></div>
+            <p class="price">$199<small>/month</small></p>
+            <dl><div><dt>Creatives a month</dt><dd>35</dd></div><div><dt>Of those, videos</dt><dd>up to 12</dd></div></dl>
+            <a class="btn btn--block" href="./apply/?plan=growth">Apply for Growth</a>
+          </article>
+          <article class="plan">
+            <div class="plan-head"><h3>Scale</h3><p>Big catalogs, new drops, bigger ad budgets.</p></div>
+            <p class="price">$399<small>/month</small></p>
+            <dl><div><dt>Creatives a month</dt><dd>70</dd></div><div><dt>Of those, videos</dt><dd>up to 25</dd></div></dl>
+            <a class="btn btn--secondary btn--block" href="./apply/?plan=scale">Apply for Scale</a>
+          </article>
+        </div>
+        <p class="cta-note">Month to month. Nothing renews on its own. <a class="text-link" href="./pricing/">Compare plans</a></p>
+      </div>
+    </section>
+
+    <section class="section band--paper2">
+      <div class="wrap split">
+        <div class="section-head">
+          <h2>Questions you'll have</h2>
+          <p><a class="text-link" href="./faq/">See all questions</a></p>
+        </div>
+        <div class="faq">
+          <details open><summary>Is it AI? Will it look fake?</summary><div><p>The scene around your product can be AI. Your product isn't: it comes from your own photos, and a person checks every file. We label AI content the way TikTok and Meta require.</p></div></details>
+          <details><summary>When do I pay?</summary><div><p>Not when you apply. If we accept you, we email a payment link. Your first month starts when you pay it.</p></div></details>
+          <details><summary>Can I cancel?</summary><div><p>Nothing renews on its own. Each month we email a new payment link. If you don't pay it, your plan stops. No contract.</p></div></details>
+          <details><summary>Do I get 15 videos on Starter?</summary><div><p>No. Starter is 15 creatives a month, and up to 5 of them can be videos. The rest are statics and variations.</p></div></details>
+          <details><summary>Do you run my ads?</summary><div><p>No. We make the ads. You or your ad person run them, and you pay TikTok or Meta directly.</p></div></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="wrap">
+        <h2>Get a month of ads for your shop.</h2>
+        <div class="cta-row"><a class="btn" href="./apply/">Apply now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+        <p class="cta-note">Free to apply. You only pay if we accept you.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="./" aria-label="Aspivra home">
+            <svg viewBox="0 0 24 24" aria-hidden="true" style="color:#f4f3f1"><path fill="currentColor" d="M12 4 20 20h-3.7L12 11.2 7.7 20H4z"/><path fill="currentColor" d="M10 17h4l1.2 2.3H8.8z"/></svg>
+            <span>Aspivra</span>
+          </a>
+          <p class="footer-tagline">Ambition into momentum.</p>
+          <p>Monthly ads for e-moto brands and parts shops.<br><a href="mailto:aspivrallc@gmail.com" style="color:inherit">aspivrallc@gmail.com</a></p>
+        </div>
+        <div class="footer-cols">
+          <div>
+            <h2>Service</h2>
+            <ul>
+              <li><a href="./how-it-works/">How it works</a></li>
+              <li><a href="./pricing/">Pricing</a></li>
+              <li><a href="./apply/">Apply</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Company</h2>
+            <ul>
+              <li><a href="./about/">About</a></li>
+              <li><a href="./faq/">FAQ</a></li>
+              <li><a href="mailto:aspivrallc@gmail.com">Email us</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Legal</h2>
+            <ul>
+              <li><a href="./privacy/">Privacy</a></li>
+              <li><a href="./terms/">Terms</a></li>
+            </ul>
           </div>
         </div>
       </div>
-
-      <figure class="orb" data-phone>
-        <video class="orb__media" autoplay muted loop playsinline preload="metadata" poster="assets/img/mark-3d.webp" aria-label="The Aspivra mark, rendered in chrome and slowly turning">
-          <source src="assets/video/mark-3d-turn-600.mp4" type="video/mp4" media="(max-width: 979px)">
-          <source src="assets/video/mark-3d-turn.mp4" type="video/mp4">
-          <img src="assets/img/mark-3d.webp" width="1000" height="1000" alt="The Aspivra mark rendered in chrome">
-        </video>
-        <figcaption class="orb__note"><span class="mono">Rendered in 3D</span> from our 24-pixel logo file. Your part never gets redrawn: it comes from your photos. <button class="orb__toggle mono" type="button" data-orb-toggle>Pause</button></figcaption>
-      </figure>
-
-      <div class="scrollcue" aria-hidden="true"><span></span></div>
-    </section>
-
-    <!-- BIKES MARQUEE -->
-    <section class="marquee" aria-labelledby="marquee-label">
-      <p class="mono marquee__label" id="marquee-label">Ads for parts and gear that fit</p>
-      <div class="marquee__track" data-marquee>
-        <span>Sur-Ron Light Bee X</span><i aria-hidden="true">/</i><span>Ultra Bee</span><i aria-hidden="true">/</i><span>Talaria Sting</span><i aria-hidden="true">/</i><span>Talaria X3</span><i aria-hidden="true">/</i><span>E Ride Pro</span><i aria-hidden="true">/</i><span>Yozma IN10</span><i aria-hidden="true">/</i><span>79Bike</span><i aria-hidden="true">/</i>
-        <span aria-hidden="true">Sur-Ron Light Bee X</span><i aria-hidden="true">/</i><span aria-hidden="true">Ultra Bee</span><i aria-hidden="true">/</i><span aria-hidden="true">Talaria Sting</span><i aria-hidden="true">/</i><span aria-hidden="true">Talaria X3</span><i aria-hidden="true">/</i><span aria-hidden="true">E Ride Pro</span><i aria-hidden="true">/</i><span aria-hidden="true">Yozma IN10</span><i aria-hidden="true">/</i><span aria-hidden="true">79Bike</span><i aria-hidden="true">/</i>
+      <div class="footer-legal">
+        <span>© 2026 Aspivra LLC</span>
+        <span>Email us any time. We reply within a week.</span>
       </div>
-    </section>
-
-    <!-- SIGNATURE: one real photo, four worlds. The part never moves. -->
-    <section class="worlds" id="story" data-worlds aria-labelledby="worlds-title">
-      <div class="worlds__stage">
-        <h2 class="sr-only" id="worlds-title">Same part, four worlds</h2>
-        <canvas class="worlds__canvas" data-worlds-canvas aria-hidden="true"></canvas>
-        <div class="worlds__hud">
-          <p class="mono worlds__label"><span>TG Racing shift lock</span><i aria-hidden="true"> · </i><span>our co-founder's shop</span><i aria-hidden="true"> · </i><span>real photo, never redrawn</span></p>
-          <ol class="worlds__ticks" aria-hidden="true"><li class="is-on"></li><li></li><li></li><li></li></ol>
-        </div>
-        <div class="worlds__names">
-          <p class="worlds__name is-on" data-world-name><span class="mono" aria-hidden="true">01</span>Dirt</p>
-          <p class="worlds__name" data-world-name aria-hidden="true"><span class="mono" aria-hidden="true">02</span>Frost</p>
-          <p class="worlds__name" data-world-name aria-hidden="true"><span class="mono" aria-hidden="true">03</span>Zero-G</p>
-          <p class="worlds__name" data-world-name aria-hidden="true"><span class="mono" aria-hidden="true">04</span>Midnight</p>
-        </div>
-        <figure class="worlds__bike">
-          <img src="assets/img/shiftlock-hero.webp" width="1200" height="1600" alt="TG Racing shift lock bracket and footpeg, cut out from the brand's own product photo, not redrawn">
-          <span class="worlds__shadow" aria-hidden="true"></span>
-        </figure>
-        <p class="worlds__caption">The part never moves. Not one pixel. These worlds are drawn in code here; in your ads, AI builds them.</p>
-      </div>
-    </section>
-
-    <!-- THE PROMISE -->
-    <section class="promise">
-      <p class="kicker mono" data-reveal>01 · The rule</p>
-      <h2 class="promise__title" data-reveal>Your part stays real.</h2>
-      <div class="promise__grid">
-        <p data-reveal>AI is great at making worlds and terrible at making your product. Let it draw a brake lever and you get the wrong shape, a melted logo, a chain on the wrong side. Riders spot it in a second.</p>
-        <p data-reveal>So AI never draws your part. We take it from your own photos and TikToks, cut it out cleanly, and check every frame against the real thing. AI only builds the world around it: frost, zero gravity, a desert at midnight.</p>
-      </div>
-      <figure class="split" data-reveal>
-        <div class="split__half">
-          <img src="assets/img/tg-shiftlock-product.webp" width="1080" height="1439" loading="lazy" alt="TG Racing shift lock bracket and peg on a marble counter">
-          <span class="split__label mono">Your photo</span>
-        </div>
-        <div class="split__half split__half--dark">
-          <img src="assets/img/tg-shiftlock-installed.webp" srcset="assets/img/tg-shiftlock-installed.webp 1080w, assets/img/tg-shiftlock-installed-1600.webp 1600w" sizes="(min-width: 860px) 70vw, 90vw" width="1080" height="720" loading="lazy" alt="TG Racing shift lock installed on a Sur-Ron frame next to the footpeg">
-          <span class="split__label mono">On the bike</span>
-        </div>
-      </figure>
-    </section>
-
-    <!-- DATA -->
-    <section class="data" id="data">
-      <p class="kicker mono" data-reveal>02 · What we measured</p>
-      <h2 class="data__title" data-reveal>We studied what actually blows up in e-moto.</h2>
-      <div class="stats">
-        <div class="stat" data-reveal><span class="stat__num" data-count="209">209</span><span class="stat__label">recent TikToks from 15 e-moto brands, pulled and compared, the breakouts broken down frame by frame</span></div>
-        <div class="stat" data-reveal><span class="stat__num">1–4k</span><span class="stat__label">views on a typical brand post</span></div>
-        <div class="stat" data-reveal><span class="stat__num" data-count="37" data-suffix="x">37x</span><span class="stat__label">one brand's normal views, on its best recent post. The breakouts follow patterns.</span></div>
-      </div>
-      <p class="data__note" data-reveal>Breakouts lead with the newest bikes, say "first" when it's true, put the bike somewhere it doesn't belong, or show a before and after. Every format below comes from that data.</p>
-      <p class="mono data__src" data-reveal>Source: public view counts, up to 15 recent TikToks from each of 15 e-moto brands, Oct 2026.</p>
-    </section>
-
-    <!-- FORMATS -->
-    <section class="formats" id="formats">
-      <div class="formats__head">
-        <p class="kicker mono" data-reveal>03 · Formats</p>
-        <h2 data-reveal>Pick your formats.<br>We make the month.</h2>
-      </div>
-      <ol class="formats__list">
-        <li class="format" data-reveal><span class="format__n mono">F/01</span><h3>It just arrived</h3><p>POV unboxing on the bench, then the bike drops into a world that shouldn't exist.</p></li>
-        <li class="format" data-reveal><span class="format__n mono">F/02</span><h3>Cleanest build</h3><p>Your part on the cleanest bike in the feed, light that no garage has.</p></li>
-        <li class="format" data-reveal><span class="format__n mono">F/03</span><h3>Impossible placement</h3><p>The bike on a kitchen counter, a gas pump at midnight, the surface of the moon.</p></li>
-        <li class="format" data-reveal><span class="format__n mono">F/04</span><h3>Stock vs upgraded</h3><p>Before and after in one cut. The world changes with the part.</p></li>
-        <li class="format" data-reveal><span class="format__n mono">F/05</span><h3>First in the world</h3><p>A reveal for new parts and new bikes, built for launch week. On Scale.</p></li>
-        <li class="format" data-reveal><span class="format__n mono">F/06</span><h3>Floating parts</h3><p>The kit hangs in the air and assembles itself onto the frame.</p></li>
-      </ol>
-    </section>
-
-    <!-- PROCESS -->
-    <section class="process">
-      <h2 class="kicker mono" data-reveal>04 · How it works</h2>
-      <ol class="steps">
-        <li class="step" data-reveal><span class="step__n">1</span><h3>Apply</h3><p>Two minutes. We take a few brands each week.</p></li>
-        <li class="step" data-reveal><span class="step__n">2</span><h3>Send photos</h3><p>Your part on its own and on the bike. Phone photos work.</p></li>
-        <li class="step" data-reveal><span class="step__n">3</span><h3>First batch</h3><p>5–7 business days after you sign up and send photos. Vertical, ready for TikTok and Reels.</p></li>
-        <li class="step" data-reveal><span class="step__n">4</span><h3>Every month</h3><p>New batch every month. On Growth and Scale, new versions of whatever got the most views.</p></li>
-      </ol>
-    </section>
-
-    <!-- PRICING -->
-    <section class="pricing" id="pricing">
-      <p class="kicker mono" data-reveal>05 · Pricing</p>
-      <h2 data-reveal>Priced like a tool. Made like an agency.</h2>
-      <p class="pricing__why" data-reveal>Why it costs this little: AI does the rendering, we only do e-moto, the formats are set, and there's no media buying and no actors. People still check every frame.</p>
-      <div class="plans">
-        <article class="plan" data-reveal>
-          <h3>Starter</h3>
-          <p class="plan__price"><span>$99</span>/mo</p>
-          <ul><li>15 postable creatives</li><li>Up to 5 videos</li><li>Statics and variants</li></ul>
-        </article>
-        <article class="plan plan--hot" data-reveal>
-          <span class="plan__badge mono">Our pick</span>
-          <h3>Growth</h3>
-          <p class="plan__price"><span>$199</span>/mo</p>
-          <ul><li>35 postable creatives</li><li>Up to 12 videos</li><li>Remakes of your winners</li></ul>
-        </article>
-        <article class="plan" data-reveal>
-          <h3>Scale</h3>
-          <p class="plan__price"><span>$399</span>/mo</p>
-          <ul><li>70 postable creatives</li><li>Up to 25 videos</li><li>Launch-week reveals</li></ul>
-        </article>
-      </div>
-      <p class="pricing__fine" data-reveal>A creative is one finished file you can post: a video, a static or a variant. If your part comes out wrong, we redo it. Extra videos $15 each. Applying is free; billing starts only after we accept you and you pick a plan. Cancel anytime.</p>
-    </section>
-
-    <!-- FIT -->
-    <section class="fit">
-      <p class="kicker mono" data-reveal>06 · Is this for you</p>
-      <div class="fit__cols">
-        <div class="fit__col" data-reveal>
-          <h2 class="fit__h">For you if</h2>
-          <ul class="fit__list">
-            <li>You sell parts, decals, gear or bikes for Sur-Ron, Talaria, E Ride Pro or similar</li>
-            <li>You post on TikTok or Instagram and want a steady stream of ads, not one a quarter</li>
-            <li>You have product photos, or can take them on a phone</li>
-            <li>You'd rather pay for taste and accuracy than learn an AI tool</li>
-          </ul>
-        </div>
-        <div class="fit__col fit__col--no" data-reveal>
-          <h2 class="fit__h">Not for you if</h2>
-          <ul class="fit__list">
-            <li>You want AI to invent a bike that doesn't exist</li>
-            <li>You need us to run your ad account (we make the creative, you run it)</li>
-            <li>You want 50 videos a month for $99</li>
-            <li>You're not in e-moto. We only do this niche, on purpose</li>
-          </ul>
-        </div>
-      </div>
-      <p class="compare__hint mono" aria-hidden="true">Scroll the table sideways →</p>
-      <div class="compare" data-reveal role="table" aria-label="Aspivra compared with alternatives">
-        <div class="compare__row compare__row--head" role="row"><span role="columnheader"><span class="sr-only">Criterion</span></span><span role="columnheader">Aspivra</span><span role="columnheader">DIY AI tools</span><span role="columnheader">Agency</span><span role="columnheader">Freelancer</span></div>
-        <div class="compare__row" role="row"><span role="rowheader">Knows e-moto</span><span class="yes" role="cell">Yes</span><span class="no" role="cell">No</span><span class="part" role="cell">Rarely</span><span class="part" role="cell">Rarely</span></div>
-        <div class="compare__row" role="row"><span role="rowheader">Your part stays exact</span><span class="yes" role="cell">Guaranteed</span><span class="no" role="cell">Luck</span><span class="part" role="cell">Usually</span><span class="part" role="cell">Usually</span></div>
-        <div class="compare__row" role="row"><span role="rowheader">New creatives every month</span><span class="yes" role="cell">Yes</span><span class="part" role="cell">If you make them</span><span class="part" role="cell">Per project</span><span class="part" role="cell">Per project</span></div>
-        <div class="compare__row" role="row"><span role="rowheader">Remakes your winners</span><span class="yes" role="cell">Growth and up</span><span class="no" role="cell">No</span><span class="no" role="cell">Extra</span><span class="no" role="cell">Extra</span></div>
-        <div class="compare__row" role="row"><span role="rowheader">Typical cost</span><span class="yes" role="cell">$99–$399/mo</span><span class="part" role="cell">$10–$250/mo + your time</span><span class="no" role="cell">$1.4k–$15k/mo</span><span class="part" role="cell">$50–$800 per ad</span></div>
-      </div>
-      <p class="mono compare__src" data-reveal>Public pricing, Oct 2026.</p>
-    </section>
-
-    <!-- FOUNDERS -->
-    <section class="founders">
-      <p class="kicker mono" data-reveal>07 · Who's behind it</p>
-      <h2 data-reveal>Gabo and Tyler.</h2>
-      <p class="founders__copy" data-reveal>Two people, not a faceless studio. Tyler runs <a class="link" href="https://tgracing.store" target="_blank" rel="noopener">TG Racing</a>, an e-moto parts shop, so we know what a part has to look like on camera and what riders call out in the comments.</p>
-    </section>
-
-    <!-- FAQ -->
-    <section class="faq" id="faq">
-      <h2 class="kicker mono" data-reveal>08 · Questions</h2>
-      <div class="faq__list">
-        <details data-reveal><summary>Is it AI? Will it look fake?</summary><p>The world around your product is AI-generated. Your product never is: it comes from your own photos and footage, checked frame by frame. We label AI content the way TikTok and Meta require.</p></details>
-        <details data-reveal><summary>Will my part look exactly right?</summary><p>Yes, or it doesn't ship. Anything that warps, from a logo to a bolt, gets redone.</p></details>
-        <details data-reveal><summary>Do I get 15 videos on Starter?</summary><p>No. Starter is 15 postable creatives with up to 5 videos; the rest are statics and variants.</p></details>
-        <details data-reveal><summary>What do you need from me?</summary><p>Photos of your part on its own and installed on a bike, your logo, and the bikes it fits. Phone photos are fine.</p></details>
-        <details data-reveal><summary>Why pay when TikTok and Meta have free AI tools?</summary><p>Use them for quick variants. They won't come up with a concept for your bike, check that your part came out right, or remake what won last month. That takes someone's time. We're that time.</p></details>
-        <details data-reveal><summary>Do you show results?</summary><p>Our first tests are running now. We'll post real numbers when we have them, not before.</p></details>
-      </div>
-    </section>
-
-    <!-- APPLY -->
-    <section class="apply" id="apply">
-      <div class="apply__head">
-        <p class="kicker mono" data-reveal>09 · Early access</p>
-        <h2 data-reveal>Apply for early access.</h2>
-        <p data-reveal>Two minutes, nothing to pay now. We read every application within a week and reply from aspivrallc@gmail.com. If you're in: pick a plan, send three phone photos, and your first batch lands 5–7 business days later.</p>
-      </div>
-      <form class="form" data-form data-endpoint="https://script.google.com/macros/s/AKfycbweRGzCG4QHMbTjfEIef-rNtilaq9fpebgJoQDJjDyfQ-HpT8PIfE3mVybu3Y21JVAb/exec" method="post" novalidate>
-        <div class="field">
-          <label for="f-name">Name</label>
-          <input id="f-name" name="name" autocomplete="name" required aria-describedby="f-name-err">
-          <p class="field__err" id="f-name-err" hidden></p>
-        </div>
-        <div class="field">
-          <label for="f-email">Email</label>
-          <input id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="f-email-err">
-          <p class="field__err" id="f-email-err" hidden></p>
-        </div>
-        <div class="field">
-          <label for="f-brand">Brand or store</label>
-          <input id="f-brand" name="brand" autocomplete="organization" required aria-describedby="f-brand-err">
-          <p class="field__err" id="f-brand-err" hidden></p>
-        </div>
-        <div class="field">
-          <label for="f-url">Store URL</label>
-          <input id="f-url" name="url" type="url" inputmode="url" autocomplete="url" placeholder="yourstore.com" required aria-describedby="f-url-err">
-          <p class="field__err" id="f-url-err" hidden></p>
-        </div>
-        <div class="field">
-          <label for="f-sell">What you sell</label>
-          <select id="f-sell" name="sell" required aria-describedby="f-sell-err"><option value="">Choose one</option><option>Bikes</option><option>Parts</option><option>Decals and graphics</option><option>Gear and accessories</option><option>Other</option></select>
-          <p class="field__err" id="f-sell-err" hidden></p>
-        </div>
-        <div class="field">
-          <label for="f-ads">Where you advertise</label>
-          <select id="f-ads" name="ads" required aria-describedby="f-ads-err"><option value="">Choose one</option><option>TikTok</option><option>Meta</option><option>Both</option><option>Not yet</option></select>
-          <p class="field__err" id="f-ads-err" hidden></p>
-        </div>
-        <div class="field">
-          <label for="f-plan">Plan you're eyeing</label>
-          <select id="f-plan" name="plan"><option>Not sure yet</option><option>Starter</option><option>Growth</option><option>Scale</option></select>
-        </div>
-        <div class="field">
-          <label for="f-handle">TikTok or Instagram handle</label>
-          <input id="f-handle" name="handle" placeholder="@">
-        </div>
-        <div class="hp" aria-hidden="true"><label for="f-hp">Leave this empty</label><input id="f-hp" name="hp_extra" tabindex="-1" autocomplete="off"></div>
-        <button class="btn btn--block" type="submit"><span>Send application</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4 12.5 8l-4 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
-        <p class="form__status" role="status" aria-live="polite"></p>
-        <div class="form__fallback" data-fallback hidden>
-          <a class="btn btn--small" data-fallback-mail href="mailto:aspivrallc@gmail.com">Open in your email app</a>
-          <button class="btn btn--small btn--ghost" type="button" data-fallback-copy>Copy application</button>
-        </div>
-      </form>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="footer__big" aria-hidden="true">Aspivra</div>
-    <div class="footer__row">
-      <span class="mono" data-clock>East Coast, USA · --:-- ET</span>
-      <span>Now booking weekly batches · we reply within a week</span>
-      <a class="link" href="mailto:aspivrallc@gmail.com">aspivrallc@gmail.com</a>
-      <span class="mono">© 2026 Aspivra LLC</span>
     </div>
   </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" integrity="sha384-B2WBjDzEjJpYvhmi2UyEn7rektqkf5suS6sNoyyrf0EBAwBHdkiXxIlU0V5Ru2ed" crossorigin="anonymous" defer></script>
-  <script src="main.js?v=1793060712" defer></script>
-  <script src="worlds.js?v=1793060712" defer></script>
+  <script src="./assets/js/site.js?v=69f130c9" defer></script>
 </body>
 </html>
